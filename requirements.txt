@@ -12,5 +12,7 @@ Requirements:
  9. Players that have disconnected and reconnected should not be able to change their functional properties.
 10. Players should be able to customize their non-functional properties all the time.
 11. There should be a console for the players to chat from.
-11. The console should allow the players to customize their non-functional properties through commands with a "/".
-12. Functional properties should be customized from an interface in the lobby.
+12. The console should allow the players to customize their non-functional properties through commands with a "/".
+13. Functional properties should be customized from an interface in the lobby.
+14. The customizable functional properties should be "body size", "run speed" and "kick power".
+15. The maximum number of functional customization points should be 36, where each goes from 0-12.
