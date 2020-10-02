@@ -1,0 +1,16 @@
+Rules: X = not done | [X] = done
+
+Requirements:
+ 1. The game should have a lobby for players to load into before starting a game.
+ 2. All new players that join should first go into the lobby.
+ 3. New players should not be able to join a game in progress.
+ 4. Players that have disconnected and reconnected should be able to join a game in progress directly.
+ 5. There should be at most one game in progress.
+ 6. The players should be able to customize their worn numbers.
+ 7. The worn numbers should be at most two characters long.
+ 8. The players should be able to customize their character's properties.
+ 9. Players that have disconnected and reconnected should not be able to change their functional properties.
+10. Players should be able to customize their non-functional properties all the time.
+11. There should be a console for the players to chat from.
+11. The console should allow the players to customize their non-functional properties through commands with a "/".
+12. Functional properties should be customized from an interface in the lobby.
