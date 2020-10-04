@@ -1,6 +1,40 @@
+input, button {
+    border: none;
+    outline: none;
+}
 body {
     background-color: #eeeeee;
 }
 #name-prompt {
-    
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    top: 40%;
+}
+.text-input {
+    color: #ffffff;
+    background-color: #003300;
+    font-family: monospace;
+}
+.button {
+    color: #ffffff;
+    background-color: #003300;
+    font-family: monospace;
+}
+#name-prompt-input {
+    width: 300px;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px;
+    border-radius: 18px 18px 18px 18px;
+}
+#name-prompt-play {
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    margin-left: -83px;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    border: 2px solid #ffffff;
 }
