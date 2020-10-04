@@ -17,3 +17,5 @@ Requirements:
 14. The customizable functional properties should be "body size", "run speed" and "kick power".
 15. Each customizable functional property should have a value ranging from 0 to 12.
 16. The maximum number of available functional customization points should be 36.
+17. The minimum length of a player's name should be 1 character.
+18. The maximum length of a player's name should be 10 characters.

@@ -3,11 +3,12 @@
     <head>
         <meta name="author" content="Ivan Spajić">
         <meta name="application-name" content="Squedball">
+        <link rel="stylesheet" href="presentation/styling.css">
     </head>
     <body>
         <div id="name-prompt">
-            <span id="name-prompt-text"></span>
-            <input id="name-prompt-input" type="text">
+            <input id="name-prompt-input" class="text-input" type="text" maxlength="10">
+            <button id="name-prompt-play" class="button">Play</button>
         </div>
         <div id="game-container">
             <div id="pitch">
@@ -28,7 +29,8 @@
             </div>
             <div id="chat-container">
                 <div id="message-history-container"></div>
-                <input id="chat-input" type="text">
+                <input id="chat-input" class="text-input" type="text">
+                <button id="chat-message-send" class="button">Send</button>
             </div>
         </div>
     </body>
