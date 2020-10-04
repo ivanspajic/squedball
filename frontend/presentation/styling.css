@@ -6,6 +6,7 @@ body {
     background-color: #eeeeee;
 }
 #name-prompt {
+    display: none;
     position: absolute;
     left: 50%;
     margin-left: -160px;
